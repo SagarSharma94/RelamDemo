@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B445B2D24067C38006FAE53 /* RLMSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B445B2C24067C38006FAE53 /* RLMSupport.swift */; };
+		9B445B3224068247006FAE53 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B445B3124068247006FAE53 /* APIClient.swift */; };
 		9BCDB48B23FA693700FCD3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDB48A23FA693700FCD3AC /* AppDelegate.swift */; };
-		9BCDB48D23FA693700FCD3AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDB48C23FA693700FCD3AC /* SceneDelegate.swift */; };
 		9BCDB48F23FA693700FCD3AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDB48E23FA693700FCD3AC /* ViewController.swift */; };
 		9BCDB49223FA693700FCD3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDB49023FA693700FCD3AC /* Main.storyboard */; };
 		9BCDB49423FA693800FCD3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDB49323FA693800FCD3AC /* Assets.xcassets */; };
 		9BCDB49723FA693800FCD3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCDB49523FA693800FCD3AC /* LaunchScreen.storyboard */; };
+		9BCDB4A523FAA42D00FCD3AC /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDB4A423FAA42D00FCD3AC /* ListModel.swift */; };
+		9BCDB4A723FAB31300FCD3AC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDB4A623FAB31300FCD3AC /* NetworkManager.swift */; };
+		9BCDB4A923FACCC600FCD3AC /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCDB4A823FACCC600FCD3AC /* ListCell.swift */; };
+		AB3707E512310CA81E6BAC4A /* Pods_RelamDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBF168079DE1462D34AF0F3 /* Pods_RelamDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E1B70356F4D741AA9EFAD6C /* Pods-RelamDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelamDemo.debug.xcconfig"; path = "Target Support Files/Pods-RelamDemo/Pods-RelamDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9B445B2C24067C38006FAE53 /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLMSupport.swift; sourceTree = "<group>"; };
+		9B445B3124068247006FAE53 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		9BCDB48723FA693700FCD3AC /* RelamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RelamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCDB48A23FA693700FCD3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BCDB48C23FA693700FCD3AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9BCDB48E23FA693700FCD3AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BCDB49123FA693700FCD3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BCDB49323FA693800FCD3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BCDB49623FA693800FCD3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BCDB49823FA693800FCD3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCDB4A423FAA42D00FCD3AC /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		9BCDB4A623FAB31300FCD3AC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9BCDB4A823FACCC600FCD3AC /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		9C96E7A9F90B0DAB241BC79E /* Pods-RelamDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RelamDemo.release.xcconfig"; path = "Target Support Files/Pods-RelamDemo/Pods-RelamDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EEBF168079DE1462D34AF0F3 /* Pods_RelamDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RelamDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3707E512310CA81E6BAC4A /* Pods_RelamDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B445B3024068222006FAE53 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				9B445B3124068247006FAE53 /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
 		9BCDB47E23FA693700FCD3AC = {
 			isa = PBXGroup;
 			children = (
 				9BCDB48923FA693700FCD3AC /* RelamDemo */,
 				9BCDB48823FA693700FCD3AC /* Products */,
+				EE61BF4C49A5B6F00433D65A /* Pods */,
+				A71D2D2C7BF6471905DF89BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,36 @@
 		9BCDB48923FA693700FCD3AC /* RelamDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9B445B3024068222006FAE53 /* APIClient */,
 				9BCDB48A23FA693700FCD3AC /* AppDelegate.swift */,
-				9BCDB48C23FA693700FCD3AC /* SceneDelegate.swift */,
+				9BCDB4A423FAA42D00FCD3AC /* ListModel.swift */,
+				9BCDB4A623FAB31300FCD3AC /* NetworkManager.swift */,
 				9BCDB48E23FA693700FCD3AC /* ViewController.swift */,
+				9B445B2C24067C38006FAE53 /* RLMSupport.swift */,
+				9BCDB4A823FACCC600FCD3AC /* ListCell.swift */,
 				9BCDB49023FA693700FCD3AC /* Main.storyboard */,
 				9BCDB49323FA693800FCD3AC /* Assets.xcassets */,
 				9BCDB49523FA693800FCD3AC /* LaunchScreen.storyboard */,
 				9BCDB49823FA693800FCD3AC /* Info.plist */,
 			);
 			path = RelamDemo;
+			sourceTree = "<group>";
+		};
+		A71D2D2C7BF6471905DF89BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF168079DE1462D34AF0F3 /* Pods_RelamDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE61BF4C49A5B6F00433D65A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E1B70356F4D741AA9EFAD6C /* Pods-RelamDemo.debug.xcconfig */,
+				9C96E7A9F90B0DAB241BC79E /* Pods-RelamDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BCDB49B23FA693800FCD3AC /* Build configuration list for PBXNativeTarget "RelamDemo" */;
 			buildPhases = (
+				CFB0501DE7D205D6BCF2FA83 /* [CP] Check Pods Manifest.lock */,
 				9BCDB48323FA693700FCD3AC /* Sources */,
 				9BCDB48423FA693700FCD3AC /* Frameworks */,
 				9BCDB48523FA693700FCD3AC /* Resources */,
+				A70C00AE620E8A3D89618DBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +179,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A70C00AE620E8A3D89618DBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelamDemo/Pods-RelamDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RelamDemo/Pods-RelamDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RelamDemo/Pods-RelamDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB0501DE7D205D6BCF2FA83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RelamDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9BCDB48323FA693700FCD3AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9BCDB48F23FA693700FCD3AC /* ViewController.swift in Sources */,
+				9B445B3224068247006FAE53 /* APIClient.swift in Sources */,
+				9B445B2D24067C38006FAE53 /* RLMSupport.swift in Sources */,
+				9BCDB4A523FAA42D00FCD3AC /* ListModel.swift in Sources */,
+				9BCDB4A723FAB31300FCD3AC /* NetworkManager.swift in Sources */,
+				9BCDB4A923FACCC600FCD3AC /* ListCell.swift in Sources */,
 				9BCDB48B23FA693700FCD3AC /* AppDelegate.swift in Sources */,
-				9BCDB48D23FA693700FCD3AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,11 +374,13 @@
 		};
 		9BCDB49C23FA693800FCD3AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1B70356F4D741AA9EFAD6C /* Pods-RelamDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56B26SCJMJ;
 				INFOPLIST_FILE = RelamDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +394,13 @@
 		};
 		9BCDB49D23FA693800FCD3AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C96E7A9F90B0DAB241BC79E /* Pods-RelamDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56B26SCJMJ;
 				INFOPLIST_FILE = RelamDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
